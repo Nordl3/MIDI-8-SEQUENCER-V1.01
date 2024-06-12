@@ -1,3 +1,21 @@
+/**
+ * MIDI-8-SEQUENCER-V1.01 by Nordl3 - September 2023
+ * 
+ * This Arduino Nano-based MIDI-controlled step sequencer interfaces with DAWs, MIDI clock sources, and Eurorack modular synthesizer systems.
+ * Inspired by the classic Baby 8 sequencer, it manages a sequence of steps, each controlling output voltage via individual potentiometers for pitch and velocity.
+ * It supports playback modes including forward, reverse, and ping-pong.
+ * When the DAW is stopped, the current step pin goes low to mute the output. 'TUNING MODE' is activated by pressing the menu button when the DAW is stopped, setting the current step high. Further presses cycle through steps for tuning with respective potentiometers. Start and stop the DAW to exit TUNING MODE.
+ * 
+ * Key Features:
+ * - Receives MIDI clock, start, and stop commands to synchronize with external MIDI devices or DAWs.
+ * - Two 'Menu' potentiometers define the sequence length and MIDI clock division.
+ * - Each step is connected to two potentiometers for individual control of pitch and velocity.
+ * - A diode summing network for each row of potentiometers provides clean, isolated control over pitch and velocity, similar to 'Baby 8' circuits.
+ * - LEDs indicate active steps, providing clear visual feedback.
+ * 
+ */
+
+
 #include <MIDI.h>
 
 // Define the number of LEDs and their connected pins
