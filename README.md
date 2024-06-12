@@ -21,3 +21,6 @@ The **MIDI-8-SEQUENCER-V1.01** is a microcontroller-based sequencer that interfa
 
 ## Usage
 Connect the device to a MIDI source and Eurorack system, set the desired sequence length and clock division using the potentiometers, and select the playback mode to begin sequencing. Use 'TUNING MODE' for fine adjustments to each step's pitch and velocity settings.
+
+## Video Demo
+- https://youtu.be/7BbvsP_2uEQ
