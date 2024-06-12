@@ -24,3 +24,6 @@ Connect the device to a MIDI source and Eurorack system, set the desired sequenc
 
 ## Video Demo
 https://youtu.be/7BbvsP_2uEQ
+
+## Fritzing Forum Post
+https://forum.fritzing.org/t/midi-8-sequencer-v1-01/23934
